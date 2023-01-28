@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B0AD052983B9D60027060C /* ParallelCountersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD042983B9D60027060C /* ParallelCountersApp.swift */; };
+		A6B0AD072983B9D60027060C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD062983B9D60027060C /* ContentView.swift */; };
+		A6B0AD092983B9D70027060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AD082983B9D70027060C /* Assets.xcassets */; };
+		A6B0AD0C2983B9D70027060C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AD0B2983B9D70027060C /* Preview Assets.xcassets */; };
+		A6B0AD162983B9D70027060C /* ParallelCountersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD152983B9D70027060C /* ParallelCountersTests.swift */; };
+		A6B0AD202983B9D70027060C /* ParallelCountersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD1F2983B9D70027060C /* ParallelCountersUITests.swift */; };
+		A6B0AD222983B9D70027060C /* ParallelCountersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD212983B9D70027060C /* ParallelCountersUITestsLaunchTests.swift */; };
+		A6B0AD282983B9D70027060C /* ParallelCounters Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6B0AD272983B9D70027060C /* ParallelCounters Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6B0AD2D2983B9D70027060C /* ParallelCountersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD2C2983B9D70027060C /* ParallelCountersApp.swift */; };
+		A6B0AD2F2983B9D70027060C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD2E2983B9D70027060C /* ContentView.swift */; };
+		A6B0AD312983B9D80027060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AD302983B9D80027060C /* Assets.xcassets */; };
+		A6B0AD342983B9D80027060C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AD332983B9D80027060C /* Preview Assets.xcassets */; };
+		A6B0AD3E2983B9D80027060C /* ParallelCounters_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD3D2983B9D80027060C /* ParallelCounters_Watch_AppTests.swift */; };
+		A6B0AD482983B9D80027060C /* ParallelCounters_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD472983B9D80027060C /* ParallelCounters_Watch_AppUITests.swift */; };
+		A6B0AD4A2983B9D80027060C /* ParallelCounters_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AD492983B9D80027060C /* ParallelCounters_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6B0AD122983B9D70027060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B0ACF92983B9D60027060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B0AD002983B9D60027060C;
+			remoteInfo = ParallelCounters;
+		};
+		A6B0AD1C2983B9D70027060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B0ACF92983B9D60027060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B0AD002983B9D60027060C;
+			remoteInfo = ParallelCounters;
+		};
+		A6B0AD292983B9D70027060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B0ACF92983B9D60027060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B0AD262983B9D70027060C;
+			remoteInfo = "ParallelCounters Watch App";
+		};
+		A6B0AD3A2983B9D80027060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B0ACF92983B9D60027060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B0AD262983B9D70027060C;
+			remoteInfo = "ParallelCounters Watch App";
+		};
+		A6B0AD442983B9D80027060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B0ACF92983B9D60027060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B0AD262983B9D70027060C;
+			remoteInfo = "ParallelCounters Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6B0AD502983B9D80027060C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A6B0AD282983B9D70027060C /* ParallelCounters Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6B0AD012983B9D60027060C /* ParallelCounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallelCounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD042983B9D60027060C /* ParallelCountersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCountersApp.swift; sourceTree = "<group>"; };
+		A6B0AD062983B9D60027060C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6B0AD082983B9D70027060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B0AD0B2983B9D70027060C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6B0AD112983B9D70027060C /* ParallelCountersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallelCountersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD152983B9D70027060C /* ParallelCountersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCountersTests.swift; sourceTree = "<group>"; };
+		A6B0AD1B2983B9D70027060C /* ParallelCountersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallelCountersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD1F2983B9D70027060C /* ParallelCountersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCountersUITests.swift; sourceTree = "<group>"; };
+		A6B0AD212983B9D70027060C /* ParallelCountersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCountersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6B0AD272983B9D70027060C /* ParallelCounters Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParallelCounters Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD2C2983B9D70027060C /* ParallelCountersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCountersApp.swift; sourceTree = "<group>"; };
+		A6B0AD2E2983B9D70027060C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6B0AD302983B9D80027060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B0AD332983B9D80027060C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6B0AD392983B9D80027060C /* ParallelCounters Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParallelCounters Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD3D2983B9D80027060C /* ParallelCounters_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCounters_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A6B0AD432983B9D80027060C /* ParallelCounters Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParallelCounters Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AD472983B9D80027060C /* ParallelCounters_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCounters_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A6B0AD492983B9D80027060C /* ParallelCounters_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCounters_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B0ACFE2983B9D60027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD0E2983B9D70027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD182983B9D70027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD242983B9D70027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD362983B9D80027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD402983B9D80027060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B0ACF82983B9D60027060C = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD032983B9D60027060C /* ParallelCounters */,
+				A6B0AD142983B9D70027060C /* ParallelCountersTests */,
+				A6B0AD1E2983B9D70027060C /* ParallelCountersUITests */,
+				A6B0AD2B2983B9D70027060C /* ParallelCounters Watch App */,
+				A6B0AD3C2983B9D80027060C /* ParallelCounters Watch AppTests */,
+				A6B0AD462983B9D80027060C /* ParallelCounters Watch AppUITests */,
+				A6B0AD022983B9D60027060C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B0AD022983B9D60027060C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD012983B9D60027060C /* ParallelCounters.app */,
+				A6B0AD112983B9D70027060C /* ParallelCountersTests.xctest */,
+				A6B0AD1B2983B9D70027060C /* ParallelCountersUITests.xctest */,
+				A6B0AD272983B9D70027060C /* ParallelCounters Watch App.app */,
+				A6B0AD392983B9D80027060C /* ParallelCounters Watch AppTests.xctest */,
+				A6B0AD432983B9D80027060C /* ParallelCounters Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B0AD032983B9D60027060C /* ParallelCounters */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD042983B9D60027060C /* ParallelCountersApp.swift */,
+				A6B0AD062983B9D60027060C /* ContentView.swift */,
+				A6B0AD082983B9D70027060C /* Assets.xcassets */,
+				A6B0AD0A2983B9D70027060C /* Preview Content */,
+			);
+			path = ParallelCounters;
+			sourceTree = "<group>";
+		};
+		A6B0AD0A2983B9D70027060C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD0B2983B9D70027060C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6B0AD142983B9D70027060C /* ParallelCountersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD152983B9D70027060C /* ParallelCountersTests.swift */,
+			);
+			path = ParallelCountersTests;
+			sourceTree = "<group>";
+		};
+		A6B0AD1E2983B9D70027060C /* ParallelCountersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD1F2983B9D70027060C /* ParallelCountersUITests.swift */,
+				A6B0AD212983B9D70027060C /* ParallelCountersUITestsLaunchTests.swift */,
+			);
+			path = ParallelCountersUITests;
+			sourceTree = "<group>";
+		};
+		A6B0AD2B2983B9D70027060C /* ParallelCounters Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD2C2983B9D70027060C /* ParallelCountersApp.swift */,
+				A6B0AD2E2983B9D70027060C /* ContentView.swift */,
+				A6B0AD302983B9D80027060C /* Assets.xcassets */,
+				A6B0AD322983B9D80027060C /* Preview Content */,
+			);
+			path = "ParallelCounters Watch App";
+			sourceTree = "<group>";
+		};
+		A6B0AD322983B9D80027060C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD332983B9D80027060C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6B0AD3C2983B9D80027060C /* ParallelCounters Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD3D2983B9D80027060C /* ParallelCounters_Watch_AppTests.swift */,
+			);
+			path = "ParallelCounters Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A6B0AD462983B9D80027060C /* ParallelCounters Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AD472983B9D80027060C /* ParallelCounters_Watch_AppUITests.swift */,
+				A6B0AD492983B9D80027060C /* ParallelCounters_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ParallelCounters Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B0AD002983B9D60027060C /* ParallelCounters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD512983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters" */;
+			buildPhases = (
+				A6B0ACFD2983B9D60027060C /* Sources */,
+				A6B0ACFE2983B9D60027060C /* Frameworks */,
+				A6B0ACFF2983B9D60027060C /* Resources */,
+				A6B0AD502983B9D80027060C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B0AD2A2983B9D70027060C /* PBXTargetDependency */,
+			);
+			name = ParallelCounters;
+			productName = ParallelCounters;
+			productReference = A6B0AD012983B9D60027060C /* ParallelCounters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6B0AD102983B9D70027060C /* ParallelCountersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD542983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCountersTests" */;
+			buildPhases = (
+				A6B0AD0D2983B9D70027060C /* Sources */,
+				A6B0AD0E2983B9D70027060C /* Frameworks */,
+				A6B0AD0F2983B9D70027060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B0AD132983B9D70027060C /* PBXTargetDependency */,
+			);
+			name = ParallelCountersTests;
+			productName = ParallelCountersTests;
+			productReference = A6B0AD112983B9D70027060C /* ParallelCountersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6B0AD1A2983B9D70027060C /* ParallelCountersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD572983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCountersUITests" */;
+			buildPhases = (
+				A6B0AD172983B9D70027060C /* Sources */,
+				A6B0AD182983B9D70027060C /* Frameworks */,
+				A6B0AD192983B9D70027060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B0AD1D2983B9D70027060C /* PBXTargetDependency */,
+			);
+			name = ParallelCountersUITests;
+			productName = ParallelCountersUITests;
+			productReference = A6B0AD1B2983B9D70027060C /* ParallelCountersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A6B0AD262983B9D70027060C /* ParallelCounters Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD4D2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch App" */;
+			buildPhases = (
+				A6B0AD232983B9D70027060C /* Sources */,
+				A6B0AD242983B9D70027060C /* Frameworks */,
+				A6B0AD252983B9D70027060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParallelCounters Watch App";
+			productName = "ParallelCounters Watch App";
+			productReference = A6B0AD272983B9D70027060C /* ParallelCounters Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6B0AD382983B9D80027060C /* ParallelCounters Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD5A2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch AppTests" */;
+			buildPhases = (
+				A6B0AD352983B9D80027060C /* Sources */,
+				A6B0AD362983B9D80027060C /* Frameworks */,
+				A6B0AD372983B9D80027060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B0AD3B2983B9D80027060C /* PBXTargetDependency */,
+			);
+			name = "ParallelCounters Watch AppTests";
+			productName = "ParallelCounters Watch AppTests";
+			productReference = A6B0AD392983B9D80027060C /* ParallelCounters Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6B0AD422983B9D80027060C /* ParallelCounters Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AD5D2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch AppUITests" */;
+			buildPhases = (
+				A6B0AD3F2983B9D80027060C /* Sources */,
+				A6B0AD402983B9D80027060C /* Frameworks */,
+				A6B0AD412983B9D80027060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B0AD452983B9D80027060C /* PBXTargetDependency */,
+			);
+			name = "ParallelCounters Watch AppUITests";
+			productName = "ParallelCounters Watch AppUITests";
+			productReference = A6B0AD432983B9D80027060C /* ParallelCounters Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B0ACF92983B9D60027060C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A6B0AD002983B9D60027060C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6B0AD102983B9D70027060C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6B0AD002983B9D60027060C;
+					};
+					A6B0AD1A2983B9D70027060C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6B0AD002983B9D60027060C;
+					};
+					A6B0AD262983B9D70027060C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6B0AD382983B9D80027060C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6B0AD262983B9D70027060C;
+					};
+					A6B0AD422983B9D80027060C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6B0AD262983B9D70027060C;
+					};
+				};
+			};
+			buildConfigurationList = A6B0ACFC2983B9D60027060C /* Build configuration list for PBXProject "ParallelCounters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B0ACF82983B9D60027060C;
+			productRefGroup = A6B0AD022983B9D60027060C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B0AD002983B9D60027060C /* ParallelCounters */,
+				A6B0AD102983B9D70027060C /* ParallelCountersTests */,
+				A6B0AD1A2983B9D70027060C /* ParallelCountersUITests */,
+				A6B0AD262983B9D70027060C /* ParallelCounters Watch App */,
+				A6B0AD382983B9D80027060C /* ParallelCounters Watch AppTests */,
+				A6B0AD422983B9D80027060C /* ParallelCounters Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B0ACFF2983B9D60027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD0C2983B9D70027060C /* Preview Assets.xcassets in Resources */,
+				A6B0AD092983B9D70027060C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD0F2983B9D70027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD192983B9D70027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD252983B9D70027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD342983B9D80027060C /* Preview Assets.xcassets in Resources */,
+				A6B0AD312983B9D80027060C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD372983B9D80027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD412983B9D80027060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B0ACFD2983B9D60027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD072983B9D60027060C /* ContentView.swift in Sources */,
+				A6B0AD052983B9D60027060C /* ParallelCountersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD0D2983B9D70027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD162983B9D70027060C /* ParallelCountersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD172983B9D70027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD222983B9D70027060C /* ParallelCountersUITestsLaunchTests.swift in Sources */,
+				A6B0AD202983B9D70027060C /* ParallelCountersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD232983B9D70027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD2F2983B9D70027060C /* ContentView.swift in Sources */,
+				A6B0AD2D2983B9D70027060C /* ParallelCountersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD352983B9D80027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD3E2983B9D80027060C /* ParallelCounters_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B0AD3F2983B9D80027060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AD4A2983B9D80027060C /* ParallelCounters_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A6B0AD482983B9D80027060C /* ParallelCounters_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6B0AD132983B9D70027060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B0AD002983B9D60027060C /* ParallelCounters */;
+			targetProxy = A6B0AD122983B9D70027060C /* PBXContainerItemProxy */;
+		};
+		A6B0AD1D2983B9D70027060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B0AD002983B9D60027060C /* ParallelCounters */;
+			targetProxy = A6B0AD1C2983B9D70027060C /* PBXContainerItemProxy */;
+		};
+		A6B0AD2A2983B9D70027060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B0AD262983B9D70027060C /* ParallelCounters Watch App */;
+			targetProxy = A6B0AD292983B9D70027060C /* PBXContainerItemProxy */;
+		};
+		A6B0AD3B2983B9D80027060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B0AD262983B9D70027060C /* ParallelCounters Watch App */;
+			targetProxy = A6B0AD3A2983B9D80027060C /* PBXContainerItemProxy */;
+		};
+		A6B0AD452983B9D80027060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B0AD262983B9D70027060C /* ParallelCounters Watch App */;
+			targetProxy = A6B0AD442983B9D80027060C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6B0AD4B2983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6B0AD4C2983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A6B0AD4E2983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallelCounters Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParallelCounters;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.shetommy.ParallelCounters;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCounters.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A6B0AD4F2983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallelCounters Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParallelCounters;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.shetommy.ParallelCounters;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCounters.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		A6B0AD522983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallelCounters/Preview Content\"";
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParallelCounters;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCounters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B0AD532983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParallelCounters/Preview Content\"";
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParallelCounters;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCounters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B0AD552983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCountersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallelCounters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallelCounters";
+			};
+			name = Debug;
+		};
+		A6B0AD562983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCountersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallelCounters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallelCounters";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B0AD582983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCountersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParallelCounters;
+			};
+			name = Debug;
+		};
+		A6B0AD592983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shetommy.ParallelCountersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParallelCounters;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B0AD5B2983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shetommy.ParallelCounters-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallelCounters Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallelCounters Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A6B0AD5C2983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shetommy.ParallelCounters-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParallelCounters Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParallelCounters Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		A6B0AD5E2983B9D80027060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shetommy.ParallelCounters-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ParallelCounters Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A6B0AD5F2983B9D80027060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JDTR4Y333X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shetommy.ParallelCounters-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ParallelCounters Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B0ACFC2983B9D60027060C /* Build configuration list for PBXProject "ParallelCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD4B2983B9D80027060C /* Debug */,
+				A6B0AD4C2983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD4D2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD4E2983B9D80027060C /* Debug */,
+				A6B0AD4F2983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD512983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD522983B9D80027060C /* Debug */,
+				A6B0AD532983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD542983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCountersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD552983B9D80027060C /* Debug */,
+				A6B0AD562983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD572983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCountersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD582983B9D80027060C /* Debug */,
+				A6B0AD592983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD5A2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD5B2983B9D80027060C /* Debug */,
+				A6B0AD5C2983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AD5D2983B9D80027060C /* Build configuration list for PBXNativeTarget "ParallelCounters Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AD5E2983B9D80027060C /* Debug */,
+				A6B0AD5F2983B9D80027060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B0ACF92983B9D60027060C /* Project object */;
+}
